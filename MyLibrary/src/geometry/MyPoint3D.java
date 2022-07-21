@@ -2,6 +2,7 @@ package geometry;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import geometry.MyPoint2D;
 
 /** A 3D point (or vector) with x,y,z stored as double precision.
  * @author Peter Lelievre
@@ -447,7 +448,6 @@ public class MyPoint3D {
      */
     public String toStringSpaces() {
         return getX() + " " + getY() + " " + getZ();
-    }
     }
 
     /** Provides a formatted string containing the x and y values.
