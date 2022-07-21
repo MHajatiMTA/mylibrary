@@ -442,19 +442,12 @@ public class MyPoint3D {
     public String toStringParentheses() {
         return String.format("(%+10.4f ,%+10.4f ,%+10.4f )",getX(),getY(),getZ());
     }
-    
     /** Provides a formatted string containing the x and y values.
      * @return A string of the form "x y z".
      */
     public String toStringSpaces() {
         return getX() + " " + getY() + " " + getZ();
     }
-
-    /** Provides a formatted string containing the x and y values.
-     * @return A string of the form "X = x, Y = y, Z = y".
-     */
-    public String toStringEquals() {
-        return String.format("X = %d, Y = %d, Z = %f", (int)getX(), (int)getY(), (float)getZ());
     }
 
     /** Provides a formatted string containing the x and y values.

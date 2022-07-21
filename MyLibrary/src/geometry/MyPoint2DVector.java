@@ -470,4 +470,15 @@ public class MyPoint2DVector {
 
     }
     
+    
+    /** Return the list as a string*/
+    @Override
+    public String toString(){
+        String output = "";
+        for(int i = 0; i < size(); i++){
+            output = output + (i+1) + ". " + get(i).toString() + "\n";
+        }
+        return output;
+    }
+    
 }
