@@ -2,7 +2,6 @@ package geometry;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import geometry.MyPoint2D;
 
 /** A 3D point (or vector) with x,y,z stored as double precision.
  * @author Peter Lelievre
@@ -70,7 +69,6 @@ public class MyPoint3D {
     public MyPoint2D deepCopy2D() {
         return new MyPoint2D( getX(), getY());
     }
-
     // -------------------- Getters -------------------
 
     /** Returns the x coordinate value of the point.
